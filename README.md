@@ -40,10 +40,23 @@ or
 when someone wants to tidy an `object` away
 but does not know where it goes. 🤷‍♂️
 
-## Will Building Another App _Magically_ Resolve the Issue? 🪄
+### The Problem with Using Instant Messages ...
+
+Instant messaging is fine for getting a _fast_ reply.
+But it's _horrible_ for 2 specific reasons:
+
+1. The **history** is **lost** almost _immediately_ so we have to keep asking the same questions ...
+
+2. Any `new` person joining the house/team has no way of knowing where _anything_ is/belongs.
+
+So if we `continue` using instant messages,
+we still have _exactly_ the same problem
+with a bandaid over it and no _permanent_ solution. 🩹
+
+## Will Building an App _Magically_ Resolve the Issue? 🪄
 
 Of course not! 
-We aren't pretending that it will. 
+We aren't pretending that it will. <br />
 All we want is a _systematic_ approach to tidying
 where everyone in the house/team can communicate
 and get answers to the questions they have 
@@ -129,13 +142,28 @@ help you **declutter, tidy & organize**
 your **_physical_ environment**
 so you can start living your "***best life***".
 
-## Is there a "Market" for this App?
+## Is there a "Market" for this App?
 
-Most definitely, yes. 
+Most definitely, yes! <br />
 If we can build something that helps people declutter, donate and systematize their real world 
 the potential for revenue is significant. 
 
+![pain points](https://github.com/dwyl/tidy/assets/194400/d7ab4cab-f8e9-4523-a865-04f50ba963ff)
 
+For me, the "pain point" 
+of having clutter in the house
+is level `6` "intense".
+I literally feel my heart rate spike when I see it.
+But I feel _powerless_ to `do` anything
+because it's not _my_ stuff. 😢
+
+We suspect that for some `people`
+the the pain is closer to an `8`
+and they would _gladly_ throw `$100` at _solving_ the problem.
+I'm at a `6` and would _gladly_ pay `$10,000` 
+to make it go away _immediately_. 
+Because I know it's _costing_ us money in "lost productivity"
+each and every day. 
 
 # When? ⏳
 
