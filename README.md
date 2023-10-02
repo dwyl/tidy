@@ -20,7 +20,7 @@ Our house is untidy.
 There is clutter 
 (`objects` that don't belong 
 in a particular room/surface) 
-_everywhere_. 
+_everywhere_. <br />
 It's both mentally and physically _exhausting_
 and deeply negative
 to both adults 
@@ -28,6 +28,36 @@ and _especially_ children. 😢
 
 We need to resolve this as our _highest_ priority
 because it affects us every day.
+
+## Why an Build a Mini-App for This?
+
+We _currently_ use instant messages ([`signal.org`](https://signal.org/))
+to ask questions like:
+"_**Where** is `XYZ`?_" 
+when searching for an `object`
+or 
+"_**Where** does this belong?_" 
+when someone wants to tidy an `object` away
+but does not know where it goes. 🤷‍♂️
+
+## Will Building Another App _Magically_ Resolve the Issue? 🪄
+
+Of course not! 
+We aren't pretending that it will. 
+All we want is a _systematic_ approach to tidying
+where everyone in the house/team can communicate
+and get answers to the questions they have 
+in a timely manor 
+and most importantly,
+have a _record_ of where things belong
+so that when the question arises _again_,
+the answer can be surfaced _immediately_.
+Rather than having to continually ask the same question(s).
+
+We know that _many_ other people 
+have the same problem(s) 
+and need a practical solution.
+
 
 ## How _Many_ People Are Affected? 💭
 
@@ -37,27 +67,30 @@ in a home
 where **_everything_ has a place**
 and is **always _perfectly_ tidy**,
 count yourself _exceptionally_ lucky!
-You lived in a magazine shoot 
+You lived in a magazine shoot:
 
 ![minimalist-magazine-home](https://github.com/dwyl/tidy/assets/194400/a3df4068-197c-40e6-963f-4fac1c2483d3)
 Image credit:
 [gjgardner.com/learn/minimalist-home-design-ideas](https://www.gjgardner.com.au/learn/planning-your-home/how-s-the-serenity-minimalist-home-design-ideas/)
 
-This is _not_ the "norm";
+Magazine minimalism is _not_ the "norm";
 **_most_ `people`** 
 have some degree of clutter
 in their homes. 
-For the simple reason that 
-**_most_ `people`** in a consumer society 
+Either hidden in their closets 
+or in plain sight if they don't have "enough" closet space.
+**_Most_ `people`** in a consumer society 
 continue buying stuff
 and don't have infinite shelf/wardrobe/cupboard space ...
 it's _physics_! 
 
 Many `people` have this problem ...
 
-![cluttered-house](https://github.com/dwyl/home/assets/194400/8b598f6d-da01-4607-a83f-28b3bddb0f78)
+![cluttered-home](https://github.com/dwyl/tidy/assets/194400/aa97ae8d-5a94-4b8d-a98e-0954604ce7c4)
+
 Image credit: 
-[clutterfreenow.com/blog/decluttering/cluttered-house-the-worst](https://clutterfreenow.com/blog/decluttering/question-is-my-cluttered-house-the-worst-youve-seen/) <br />
+[go.com/Health/clutter-affects-health](https://abcnews.go.com/Health/clutter-affects-health/story?id=60367240) <br />
+
 Plenty more examples:
 [google.com/search?q=clutter&tbm=isch](https://www.google.com/search?q=clutter&tbm=isch) <br />
 Just looking at these images triggers anxiety for me ... 😬 <br />
@@ -95,6 +128,13 @@ A micro app with a **_simple_ goal**:
 help you **declutter, tidy & organize** 
 your **_physical_ environment**
 so you can start living your "***best life***".
+
+## Is there a "Market" for this App?
+
+Most definitely, yes. 
+If we can build something that helps people declutter, donate and systematize their real world 
+the potential for revenue is significant. 
+
 
 
 # When? ⏳
