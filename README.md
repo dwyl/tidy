@@ -4,6 +4,14 @@
 
 ✨ a mini app anyone can use to organize their real-world life 🎉
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dwyl/tidy/ci.yml?label=build&style=flat-square&branch=main)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tidy/main.svg?style=flat-square)](https://codecov.io/github/dwyl/tidy?branch=main)
+[![Hex.pm](https://img.shields.io/hexpm/v/fields?color=brightgreen&style=flat-square)](https://hex.pm/packages/fields)
+[![docs](https://img.shields.io/badge/docs-amaze-brightgreen?style=flat-square)](https://hexdocs.pm/fields/api-reference.html)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/tidy/issues)
+[![HitCount](https://hits.dwyl.com/dwyl/tidy.svg)](https://hits.dwyl.com/dwyl/tidy)
+
+
 </div>
 
 # Why? 🤷‍♀️
@@ -21,13 +29,29 @@ and _especially_ children. 😢
 We need to resolve this as our _highest_ priority
 because it affects us every day.
 
-## _Many_ People Have Are Affected? 💭
+## How _Many_ People Are Affected? 💭
 
-If you come from a home 
-where everything has a place
-and is always perfectly tidy,
+If you are lucky enough 
+to have grown up 
+in a home 
+where **_everything_ has a place**
+and is **always _perfectly_ tidy**,
 count yourself _exceptionally_ lucky!
-This is _not_ the "norm".
+You lived in a magazine shoot 
+
+![minimalist-magazine-home](https://github.com/dwyl/tidy/assets/194400/a3df4068-197c-40e6-963f-4fac1c2483d3)
+Image credit:
+[gjgardner.com/learn/minimalist-home-design-ideas](https://www.gjgardner.com.au/learn/planning-your-home/how-s-the-serenity-minimalist-home-design-ideas/)
+
+This is _not_ the "norm";
+**_most_ `people`** 
+have some degree of clutter
+in their homes. 
+For the simple reason that 
+**_most_ `people`** in a consumer society 
+continue buying stuff
+and don't have infinite shelf/wardrobe/cupboard space ...
+it's _physics_! 
 
 Many `people` have this problem ...
 
@@ -60,8 +84,10 @@ If these estimates are correct it's tens of millions of `people`.
 
 If we can build a _simple_ App 
 that can help both the hoarders
-and their long-suffering family,
-we can **_significantly_ improve millions of lives**.
+and their 
+[long-suffering family](https://news.ycombinator.com/item?id=37077012),
+we can 
+**_significantly_ improve millions of people's lives**.
 
 # What? ✨
 
@@ -134,7 +160,7 @@ Your feedback is very much encouraged/welcome! 💬<br />
 If you find the repo interesting/useful, please ⭐ on GitHub. <br />
 And if you have any questions,
 please open an issue:
-[app-mvp/issues](https://github.com/dwyl/app-mvp/issues) ❓
+[tidy/issues](https://github.com/dwyl/tidy/issues) ❓
 <br />
 
 
@@ -151,7 +177,7 @@ a. **Star** the repo on GitHub
 b. **Fork** the repo 
   so you have a copy you can "hack" on. 🍴 <br />
 c. **Clone** the repo to your `localhost` 
-  and run it! (see below) 👩‍💻 <br />
+  and run it! 👩‍💻 <br />
 
 
 For more detail,
@@ -160,7 +186,7 @@ please see:
 
 ### More Features? 🔔
 
-Please note that our goal with this MVP
+Please note that our goal with `tidy`
 is _not_ to have _all_ the features; 
 again, it's _deliberately_  simple.<br />
 We will be adding _lots_ more features
