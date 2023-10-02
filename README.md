@@ -113,6 +113,12 @@ mix setup
 mix s
 ```
 
+Visit 
+[`localhost:4000`](http://localhost:4000) 
+from your browser,
+you should see something similar to:
+
+
 # TODO: add screenshot!
 
 
