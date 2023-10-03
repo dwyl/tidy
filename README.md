@@ -31,7 +31,8 @@ because it affects us every day.
 
 ## Why an Build a Mini-App for This?
 
-We _currently_ use instant messages ([`signal.org`](https://signal.org/))
+We _currently_ use instant messages 
+([`signal.org`](https://signal.org/))
 to ask questions like:
 "_**Where** is `XYZ`?_" 
 when searching for an `object`
@@ -40,14 +41,16 @@ or
 when someone wants to tidy an `object` away
 but does not know where it goes. 🤷‍♂️
 
-### The Problem with Using Instant Messages ...
+### The Problem with Using Instant Messages ...
 
 Instant messaging is fine for getting a _fast_ reply.
 But it's _horrible_ for 2 specific reasons:
 
-1. The **history** is **lost** almost _immediately_ so we have to keep asking the same questions ...
+1. The **history** is **lost** almost _immediately_ 
+   so we have to **keep asking** the **_same_ questions** ...
 
-2. Any `new` person joining the house/team has no way of knowing where _anything_ is/belongs.
+2. Any **`new` `person`** joining the house/team 
+   has no way of knowing where _anything_ is/belongs.
 
 So if we `continue` using instant messages,
 we still have _exactly_ the same problem
@@ -60,7 +63,7 @@ We aren't pretending that it will. <br />
 All we want is a _systematic_ approach to tidying
 where everyone in the house/team can communicate
 and get answers to the questions they have 
-in a timely manor 
+in a timely manner 
 and most importantly,
 have a _record_ of where things belong
 so that when the question arises _again_,
@@ -104,11 +107,6 @@ Many `people` have this problem ...
 Image credit: 
 [go.com/Health/clutter-affects-health](https://abcnews.go.com/Health/clutter-affects-health/story?id=60367240) <br />
 
-Plenty more examples:
-[google.com/search?q=clutter&tbm=isch](https://www.google.com/search?q=clutter&tbm=isch) <br />
-Just looking at these images triggers anxiety for me ... 😬 <br />
-If you feel the same way, read on! 
-
 [Marie Kondo](https://en.wikipedia.org/wiki/Marie_Kondo)
 wouldn't _need_ 
 to write 
@@ -117,16 +115,23 @@ the NYT Bestseller that has **sold** more than
 [**9 Million Copies**](https://github.com/dwyl/home/issues/256#issuecomment-1742853750) -
 if this wasn't a _widespread_ issue.
 
+
+> Plenty more examples:
+[google.com/search?q=clutter&tbm=isch](https://www.google.com/search?q=clutter&tbm=isch) <br />
+Just looking at these images triggers anxiety for me ... 😬 <br />
+If you feel the same way, read on! 
+
 ## Hoarders? 🙈
 
 At the extreme, 
 accumulation of `objects` cluttering 
 people's homes is called 
-[hoarding disorder](https://en.wikipedia.org/wiki/Hoarding_disorder).
+[**hoarding disorder**](https://en.wikipedia.org/wiki/Hoarding_disorder).
 It is estimated that around **2% – 6%** of the population 
 suffers from it:
 [iocdf.org/about-hoarding/who-gets-hoarding-disorder](https://hoarding.iocdf.org/about-hoarding/who-gets-hoarding-disorder/)
-If these estimates are correct it's tens of millions of `people`.
+If these estimates are correct it's 
+**tens of _millions_ of `people`**.
 
 If we can build a _simple_ App 
 that can help both the hoarders
@@ -145,7 +150,8 @@ so you can start living your "***best life***".
 ## Is there a "Market" for this App?
 
 Most definitely, yes! <br />
-If we can build something that helps people declutter, donate and systematize their real world 
+If we can build something that helps `people`
+declutter, donate and systematize their real world <br />
 the potential for revenue is significant. 
 
 ![pain points](https://github.com/dwyl/tidy/assets/194400/d7ab4cab-f8e9-4523-a865-04f50ba963ff)
@@ -183,7 +189,7 @@ we will encourage others to use it.
 # How? 💻
 
 Try it: 
-
+URL HERE!
 
 
 ## Run it ⬇️
@@ -213,7 +219,7 @@ from your browser,
 you should see something similar to:
 
 
-# TODO: add screenshot!
+# TODO: add screenshot!
 
 
 ## Build It! 👷‍♀️
