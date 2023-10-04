@@ -2,7 +2,7 @@
 
 # `tidy`<sup>1</sup>
 
-✨ a mini app anyone can use to organize their real-world life 🎉
+✨ a mini app _anyone_ can use to **organize** their **_real-world_ life** 🪄
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dwyl/tidy/ci.yml?label=build&style=flat-square&branch=main)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tidy/main.svg?style=flat-square)](https://codecov.io/github/dwyl/tidy?branch=main)
