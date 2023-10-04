@@ -1,4 +1,4 @@
-defmodule Tidy.ObjectsFixtures do
+defmodule Tidy.ObjectFixtures do
   @moduledoc """
   This module defines test helpers for creating
   entities via the `Tidy.Objects` context.
@@ -19,7 +19,7 @@ defmodule Tidy.ObjectsFixtures do
         person_id: 42,
         owner_id: 42
       })
-      |> Tidy.Objects.create_object()
+      |> Tidy.Object.create_object()
 
     object
   end

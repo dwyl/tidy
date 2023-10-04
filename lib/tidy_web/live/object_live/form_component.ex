@@ -1,7 +1,7 @@
 defmodule TidyWeb.ObjectLive.FormComponent do
   use TidyWeb, :live_component
 
-  alias Tidy.Objects
+  alias Tidy.Object
 
   @impl true
   def render(assigns) do
@@ -36,7 +36,7 @@ defmodule TidyWeb.ObjectLive.FormComponent do
 
   @impl true
   def update(%{object: object} = assigns, socket) do
-    changeset = Objects.change_object(object)
+    changeset = Object.change_object(object)
 
     {:ok,
      socket
@@ -48,7 +48,7 @@ defmodule TidyWeb.ObjectLive.FormComponent do
   def handle_event("validate", %{"object" => object_params}, socket) do
     changeset =
       socket.assigns.object
-      |> Objects.change_object(object_params)
+      |> Object.change_object(object_params)
       |> Map.put(:action, :validate)
 
     {:noreply, assign_form(socket, changeset)}
@@ -59,7 +59,7 @@ defmodule TidyWeb.ObjectLive.FormComponent do
   end
 
   defp save_object(socket, :edit, object_params) do
-    case Objects.update_object(socket.assigns.object, object_params) do
+    case Object.update_object(socket.assigns.object, object_params) do
       {:ok, object} ->
         notify_parent({:saved, object})
 
@@ -75,7 +75,7 @@ defmodule TidyWeb.ObjectLive.FormComponent do
   end
 
   defp save_object(socket, :new, object_params) do
-    case Objects.create_object(object_params) do
+    case Object.create_object(object_params) do
       {:ok, object} ->
         notify_parent({:saved, object})
 

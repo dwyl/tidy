@@ -1,7 +1,7 @@
 <.header>
   Listing Objects
   <:actions>
-    <.link patch={~p"/objects/new"}>
+    <.link patch={~p"/obj/new"}>
       <.button>New Object</.button>
     </.link>
   </:actions>
@@ -10,7 +10,7 @@
 <.table
   id="objects"
   rows={@streams.objects}
-  row_click={fn {_id, object} -> JS.navigate(~p"/objects/#{object}") end}
+  row_click={fn {_id, object} -> JS.navigate(~p"/obj/#{object}") end}
 >
   <:col :let={{_id, object}} label="Name"><%= object.name %></:col>
   <:col :let={{_id, object}} label="Desc"><%= object.desc %></:col>
@@ -21,9 +21,9 @@
   <:col :let={{_id, object}} label="Status"><%= object.status %></:col>
   <:action :let={{_id, object}}>
     <div class="sr-only">
-      <.link navigate={~p"/objects/#{object}"}>Show</.link>
+      <.link navigate={~p"/obj/#{object}"}>Show</.link>
     </div>
-    <.link patch={~p"/objects/#{object}/edit"}>Edit</.link>
+    <.link patch={~p"/obj/#{object}/edit"}>Edit</.link>
   </:action>
   <:action :let={{id, object}}>
     <.link
@@ -35,13 +35,13 @@
   </:action>
 </.table>
 
-<.modal :if={@live_action in [:new, :edit]} id="object-modal" show on_cancel={JS.patch(~p"/objects")}>
+<.modal :if={@live_action in [:new, :edit]} id="object-modal" show on_cancel={JS.patch(~p"/obj")}>
   <.live_component
     module={TidyWeb.ObjectLive.FormComponent}
     id={@object.id || :new}
     title={@page_title}
     action={@live_action}
     object={@object}
-    patch={~p"/objects"}
+    patch={~p"/obj"}
   />
 </.modal>

@@ -316,7 +316,11 @@ we can
 Any `person` that can afford to have someone `else` cleaning their house
 has understood the value of their time. 
 But may be too busy working to keep their house _perfectly_ tidy.
-
+With a tiny tool that allows
+your assistant to easily ask 
+"Where does this belong?"
+busy people can rapidly respond
+and **systematically _organize_** their lives. 
 
 <hr />
 

@@ -1,7 +1,6 @@
 defmodule TidyWeb.ObjectLive.Show do
   use TidyWeb, :live_view
-
-  alias Tidy.Objects
+  alias Tidy.Object
 
   @impl true
   def mount(_params, _session, socket) do
@@ -13,7 +12,7 @@ defmodule TidyWeb.ObjectLive.Show do
     {:noreply,
      socket
      |> assign(:page_title, page_title(socket.assigns.live_action))
-     |> assign(:object, Objects.get_object!(id))}
+     |> assign(:object, Object.get_object!(id))}
   end
 
   defp page_title(:show), do: "Show Object"

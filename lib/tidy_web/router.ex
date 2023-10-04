@@ -15,16 +15,15 @@ defmodule TidyWeb.Router do
 
     get "/", PageController, :home
 
-    live "/objects", ObjectLive.Index, :index
-    live "/objects/new", ObjectLive.Index, :new
-    live "/objects/:id/edit", ObjectLive.Index, :edit
+    live "/obj", ObjectLive.Index, :index
+    live "/obj/new", ObjectLive.Index, :new
+    live "/obj/:id/edit", ObjectLive.Index, :edit
 
-    live "/objects/:id", ObjectLive.Show, :show
-    live "/objects/:id/show/edit", ObjectLive.Show, :edit
+    live "/obj/:id", ObjectLive.Show, :show
+    live "/obj/:id/show/edit", ObjectLive.Show, :edit
   end
 
-
-   # pipeline :api do
+  # pipeline :api do
   #   plug :accepts, ["json"]
   # end
   # Other scopes may use custom stacks.

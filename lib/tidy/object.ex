@@ -1,12 +1,28 @@
-defmodule Tidy.Objects do
-  @moduledoc """
-  The Objects context.
-  """
-
+defmodule Tidy.Object do
+  use Ecto.Schema
+  import Ecto.Changeset
   import Ecto.Query, warn: false
+  alias __MODULE__
   alias Tidy.Repo
 
-  alias Tidy.Objects.Object
+  schema "objects" do
+    field :name, :binary
+    field :status, :integer
+    field :desc, :binary
+    field :location, :binary
+    field :color, :binary
+    field :person_id, :integer
+    field :owner_id, :integer
+
+    timestamps()
+  end
+
+  @doc false
+  def changeset(object, attrs) do
+    object
+    |> cast(attrs, [:name, :desc, :color, :person_id, :owner_id, :location, :status])
+    |> validate_required([:name, :desc, :color, :person_id, :owner_id, :location, :status])
+  end
 
   @doc """
   Returns the list of objects.

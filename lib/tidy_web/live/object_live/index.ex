@@ -1,12 +1,10 @@
 defmodule TidyWeb.ObjectLive.Index do
   use TidyWeb, :live_view
-
-  alias Tidy.Objects
-  alias Tidy.Objects.Object
+  alias Tidy.Object
 
   @impl true
   def mount(_params, _session, socket) do
-    {:ok, stream(socket, :objects, Objects.list_objects())}
+    {:ok, stream(socket, :objects, Object.list_objects())}
   end
 
   @impl true
@@ -17,7 +15,7 @@ defmodule TidyWeb.ObjectLive.Index do
   defp apply_action(socket, :edit, %{"id" => id}) do
     socket
     |> assign(:page_title, "Edit Object")
-    |> assign(:object, Objects.get_object!(id))
+    |> assign(:object, Object.get_object!(id))
   end
 
   defp apply_action(socket, :new, _params) do
@@ -39,8 +37,8 @@ defmodule TidyWeb.ObjectLive.Index do
 
   @impl true
   def handle_event("delete", %{"id" => id}, socket) do
-    object = Objects.get_object!(id)
-    {:ok, _} = Objects.delete_object(object)
+    object = Object.get_object!(id)
+    {:ok, _} = Object.delete_object(object)
 
     {:noreply, stream_delete(socket, :objects, object)}
   end

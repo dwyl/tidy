@@ -25,7 +25,7 @@ defmodule Tidy.Comment do
 
   ## Examples
 
-      iex> create_comment(%{obj_id: 1, person_id: 1, url: "Candles on the kitchen counter"})
+      iex> create_comment(%{obj_id: 1, person_id: 1, text: "Candles on the kitchen counter"})
       {:ok, %Image{}}
 
       iex> create_comment(%{field: bad_value})
