@@ -14,6 +14,28 @@
 
 </div>
 
+- [`tidy`1](#tidy1)
+- [Why? 🤷‍♀️](#why-️)
+  - [Why an Build a Mini-App for This?](#why-an-build-a-mini-app-for-this)
+    - [The Problem with Using Instant Messages ...](#the-problem-with-using-instant-messages-)
+  - [Will Building an App _Magically_ Resolve the Issue? 🪄](#will-building-an-app-magically-resolve-the-issue-)
+  - [How _Many_ People Are Affected? 💭](#how-many-people-are-affected-)
+  - [Hoarders? 🙈](#hoarders-)
+- [What? ✨](#what-)
+- [When? ⏳](#when-)
+- [Who? 👥](#who-)
+  - [Is there a "Market" for a `tidy` App?](#is-there-a-market-for-a-tidy-app)
+- [How? 💻](#how-)
+  - [Run it ⬇️](#run-it-️)
+- [TODO: add screenshot!](#todo-add-screenshot)
+  - [_Build_ It! 👷‍♀️](#build-it-️)
+  - [Feedback! 🙏](#feedback-)
+  - [Contributing 👩‍💻](#contributing-)
+    - [More Features? 🔔](#more-features-)
+
+
+<hr />
+
 # Why? 🤷‍♀️
 
 Our house is untidy. 
@@ -51,6 +73,10 @@ But it's _horrible_ for 2 specific reasons:
 
 2. Any **`new` `person`** joining the house/team 
    has no way of knowing where _anything_ is/belongs.
+
+3. Often the message featuring the question about an `object` 
+   gets pushed up by newer messages in a group thread
+   and gets forgotten about - i.e. remains unresolved. 
 
 So if we `continue` using instant messages,
 we still have _exactly_ the same problem
@@ -147,7 +173,22 @@ help you **declutter, tidy & organize**
 your **_physical_ environment**
 so you can start living your "***best life***".
 
-## Is there a "Market" for this App?
+# When? ⏳
+
+We want to build this mini app 
+so we can _use_ it internally `ASAP`.
+
+# Who? 👥
+
+For now, `tidy` is used 
+by the `people` living/working
+[`@home`](https://github.com/dwyl/home/issues/256).
+
+But if we can refine the features/functionality,
+we will encourage others to use it.
+
+
+## Is there a "Market" for a `tidy` App?
 
 Most definitely, yes! <br />
 If we can build something that helps `people`
@@ -167,25 +208,9 @@ We suspect that for some `people`
 the the pain is closer to an `8`
 and they would _gladly_ throw `$100` at _solving_ the problem.
 I'm at a `6` and would _gladly_ pay `$10,000` 
-to make it go away _immediately_. 
-Because I know it's _costing_ us money in "lost productivity"
+to make it go away _immediately_ (_and **permanently**_). 
+Because I know it's _costing_ us money in "opportunity cost"
 each and every day. 
-
-# When? ⏳
-
-We want to build this mini app 
-so we can _use_ it internally `ASAP`.
-
-# Who? 👥
-
-For now, `tiny` is used 
-by the `people` living/working
-[`@home`](https://github.com/dwyl/home/issues/256).
-
-But if we can refine the features/functionality,
-we will encourage others to use it.
-
-
 # How? 💻
 
 Try it: 
@@ -222,10 +247,10 @@ you should see something similar to:
 # TODO: add screenshot!
 
 
-## Build It! 👷‍♀️
+## _Build_ It! 👷‍♀️
 
 The creation of this mini-app is _fully_ documented in:
-[dwyl/book/tidy/](https://dwyl.github.io/book/tidy/)
+[dwyl/book/**tidy**](https://dwyl.github.io/book/tidy/)
 
 
 ## Feedback! 🙏
