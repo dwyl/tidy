@@ -24,10 +24,10 @@ defmodule Tidy.Image do
 
   ## Examples
 
-      iex> create_object(%{obj_id: 1, person_id: 1, url: "imgur.com/gallery/odNLFdO"})
+      iex> create_image(%{obj_id: 1, person_id: 1, url: "imgur.com/gallery/odNLFdO"})
       {:ok, %Image{}}
 
-      iex> create_object(%{field: bad_value})
+      iex> create_image(%{field: bad_value})
       {:error, %Ecto.Changeset{}}
 
   """
