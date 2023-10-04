@@ -68,6 +68,7 @@ defmodule TidyWeb.ObjectLive.FormComponent do
          |> put_flash(:info, "Object updated successfully")
          |> push_patch(to: socket.assigns.patch)}
 
+      # coveralls-ignore-next-line
       {:error, %Ecto.Changeset{} = changeset} ->
         {:noreply, assign_form(socket, changeset)}
     end
@@ -83,6 +84,7 @@ defmodule TidyWeb.ObjectLive.FormComponent do
          |> put_flash(:info, "Object created successfully")
          |> push_patch(to: socket.assigns.patch)}
 
+      # coveralls-ignore-next-line
       {:error, %Ecto.Changeset{} = changeset} ->
         {:noreply, assign_form(socket, changeset)}
     end

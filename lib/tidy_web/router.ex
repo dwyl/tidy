@@ -24,7 +24,6 @@ defmodule TidyWeb.Router do
   end
 
 
-
    # pipeline :api do
   #   plug :accepts, ["json"]
   # end

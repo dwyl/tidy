@@ -160,6 +160,10 @@ you should see something similar to:
 # TODO: add screenshot!
 
 
+## Schema
+
+
+
 ## _Build_ It! 👷‍♀️
 
 The creation of this mini-app is _fully_ documented in:
