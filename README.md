@@ -19,12 +19,9 @@
   - [Why an Build a Mini-App for This?](#why-an-build-a-mini-app-for-this)
     - [The Problem with Using Instant Messages ...](#the-problem-with-using-instant-messages-)
   - [Will Building an App _Magically_ Resolve the Issue? 🪄](#will-building-an-app-magically-resolve-the-issue-)
-  - [How _Many_ People Are Affected? 💭](#how-many-people-are-affected-)
-  - [Hoarders? 🙈](#hoarders-)
 - [What? ✨](#what-)
 - [When? ⏳](#when-)
 - [Who? 👥](#who-)
-  - [Is there a "Market" for a `tidy` App?](#is-there-a-market-for-a-tidy-app)
 - [How? 💻](#how-)
   - [Run it ⬇️](#run-it-️)
 - [TODO: add screenshot!](#todo-add-screenshot)
@@ -32,6 +29,10 @@
   - [Feedback! 🙏](#feedback-)
   - [Contributing 👩‍💻](#contributing-)
     - [More Features? 🔔](#more-features-)
+- [Where Can This Go? 💭](#where-can-this-go-)
+  - [How _Many_ People Are Affected? 💭](#how-many-people-are-affected-)
+  - [Is there a "Market" for a `tidy` App?](#is-there-a-market-for-a-tidy-app)
+  - [Hoarders? 🙈](#hoarders-)
 
 
 <hr />
@@ -76,7 +77,7 @@ But it's _horrible_ for 2 specific reasons:
 
 3. Often the message featuring the question about an `object` 
    gets pushed up by newer messages in a group thread
-   and gets forgotten about - i.e. remains unresolved. 
+   and gets forgotten about - i.e. remains unresolved. 🤦‍♀️
 
 So if we `continue` using instant messages,
 we still have _exactly_ the same problem
@@ -101,71 +102,6 @@ have the same problem(s)
 and need a practical solution.
 
 
-## How _Many_ People Are Affected? 💭
-
-If you are lucky enough 
-to have grown up 
-in a home 
-where **_everything_ has a place**
-and is **always _perfectly_ tidy**,
-count yourself _exceptionally_ lucky!
-You lived in a magazine shoot:
-
-![minimalist-magazine-home](https://github.com/dwyl/tidy/assets/194400/a3df4068-197c-40e6-963f-4fac1c2483d3)
-Image credit:
-[gjgardner.com/learn/minimalist-home-design-ideas](https://www.gjgardner.com.au/learn/planning-your-home/how-s-the-serenity-minimalist-home-design-ideas/)
-
-Magazine minimalism is _not_ the "norm";
-**_most_ `people`** 
-have some degree of clutter
-in their homes. 
-Either hidden in their closets 
-or in plain sight if they don't have "enough" closet space.
-**_Most_ `people`** in a consumer society 
-continue buying stuff
-and don't have infinite shelf/wardrobe/cupboard space ...
-it's _physics_! 
-
-Many `people` have this problem ...
-
-![cluttered-home](https://github.com/dwyl/tidy/assets/194400/aa97ae8d-5a94-4b8d-a98e-0954604ce7c4)
-
-Image credit: 
-[go.com/Health/clutter-affects-health](https://abcnews.go.com/Health/clutter-affects-health/story?id=60367240) <br />
-
-[Marie Kondo](https://en.wikipedia.org/wiki/Marie_Kondo)
-wouldn't _need_ 
-to write 
-"_The **Life Changing Magic** of **Tidying Up**_" - 
-the NYT Bestseller that has **sold** more than 
-[**9 Million Copies**](https://github.com/dwyl/home/issues/256#issuecomment-1742853750) -
-if this wasn't a _widespread_ issue.
-
-
-> Plenty more examples:
-[google.com/search?q=clutter&tbm=isch](https://www.google.com/search?q=clutter&tbm=isch) <br />
-Just looking at these images triggers anxiety for me ... 😬 <br />
-If you feel the same way, read on! 
-
-## Hoarders? 🙈
-
-At the extreme, 
-accumulation of `objects` cluttering 
-people's homes is called 
-[**hoarding disorder**](https://en.wikipedia.org/wiki/Hoarding_disorder).
-It is estimated that around **2% – 6%** of the population 
-suffers from it:
-[iocdf.org/about-hoarding/who-gets-hoarding-disorder](https://hoarding.iocdf.org/about-hoarding/who-gets-hoarding-disorder/)
-If these estimates are correct it's 
-**tens of _millions_ of `people`**.
-
-If we can build a _simple_ App 
-that can help both the hoarders
-and their 
-[long-suffering family](https://news.ycombinator.com/item?id=37077012),
-we can 
-**_significantly_ improve millions of people's lives**.
-
 # What? ✨
 
 A micro app with a **_simple_ goal**: 
@@ -187,30 +123,6 @@ by the `people` living/working
 But if we can refine the features/functionality,
 we will encourage others to use it.
 
-
-## Is there a "Market" for a `tidy` App?
-
-Most definitely, yes! <br />
-If we can build something that helps `people`
-declutter, donate and systematize their real world <br />
-the potential for revenue is significant. 
-
-![pain points](https://github.com/dwyl/tidy/assets/194400/d7ab4cab-f8e9-4523-a865-04f50ba963ff)
-
-For me, the "pain point" 
-of having clutter in the house
-is level `6` "intense".
-I literally feel my heart rate spike when I see it.
-But I feel _powerless_ to `do` anything
-because it's not _my_ stuff. 😢
-
-We suspect that for some `people`
-the the pain is closer to an `8`
-and they would _gladly_ throw `$100` at _solving_ the problem.
-I'm at a `6` and would _gladly_ pay `$10,000` 
-to make it go away _immediately_ (_and **permanently**_). 
-Because I know it's _costing_ us money in "opportunity cost"
-each and every day. 
 # How? 💻
 
 Try it: 
@@ -294,6 +206,105 @@ to the _full_
 If you have feature ideas, that's great! 🎉 <br />
 Please _share_ them: 
 [**app/issues**](https://github.com/dwyl/app/issues)
+
+
+# Where Can This Go? 💭
+
+We're building an `App`
+to help `people` 
+keep their life `tidy`
+because we _know_ that
+it's a _real_ problem
+that affects _many_ people. 
+## How _Many_ People Are Affected? 💭
+
+If you are lucky enough 
+to have grown up 
+in a home 
+where **_everything_ has a place**
+and is **always _perfectly_ tidy**,
+count yourself _exceptionally_ lucky!
+You lived in a magazine shoot:
+
+![minimalist-magazine-home](https://github.com/dwyl/tidy/assets/194400/a3df4068-197c-40e6-963f-4fac1c2483d3)
+Image credit:
+[gjgardner.com/learn/minimalist-home-design-ideas](https://www.gjgardner.com.au/learn/planning-your-home/how-s-the-serenity-minimalist-home-design-ideas/)
+
+Magazine minimalism is _not_ the "norm";
+**_most_ `people`** 
+have some degree of clutter
+in their homes. 
+Either hidden in their closets 
+or in plain sight if they don't have "enough" closet space.
+**_Most_ `people`** in a consumer society 
+continue buying stuff
+and don't have infinite shelf/wardrobe/cupboard space ...
+it's _physics_! 
+
+Many `people` have this problem ...
+
+![cluttered-home](https://github.com/dwyl/tidy/assets/194400/aa97ae8d-5a94-4b8d-a98e-0954604ce7c4)
+
+Image credit: 
+[go.com/Health/clutter-affects-health](https://abcnews.go.com/Health/clutter-affects-health/story?id=60367240) <br />
+
+[Marie Kondo](https://en.wikipedia.org/wiki/Marie_Kondo)
+wouldn't _need_ 
+to write 
+"_The **Life Changing Magic** of **Tidying Up**_" - 
+the NYT Bestseller that has **sold** more than 
+[**9 Million Copies**](https://github.com/dwyl/home/issues/256#issuecomment-1742853750) -
+if this wasn't a _widespread_ issue.
+
+
+> Plenty more examples:
+[google.com/search?q=clutter&tbm=isch](https://www.google.com/search?q=clutter&tbm=isch) <br />
+Just looking at these images triggers anxiety for me ... 😬 <br />
+If you feel the same way, read on! 
+
+## Is there a "Market" for a `tidy` App?
+
+Most definitely, yes! <br />
+If we can build something that helps `people`
+declutter, donate and systematize their real world <br />
+the potential for revenue is significant. 
+
+![pain points](https://github.com/dwyl/tidy/assets/194400/d7ab4cab-f8e9-4523-a865-04f50ba963ff)
+
+For me, the "pain point" 
+of having clutter in the house
+is level `6` "intense".
+I literally feel my heart rate spike when I see it.
+But I feel _powerless_ to `do` anything
+because it's not _my_ stuff. 😢
+
+We suspect that for some `people`
+the the pain is closer to an `8`
+and they would _gladly_ throw `$100` at _solving_ the problem.
+I'm at a `6` and would _gladly_ pay `$10,000` 
+to make it go away _immediately_ (_and **permanently**_). 
+Because I know it's _costing_ us money in "opportunity cost"
+each and every day. 
+
+## Hoarders? 🙈
+
+At the extreme, 
+accumulation of `objects` cluttering 
+people's homes is called 
+[**hoarding disorder**](https://en.wikipedia.org/wiki/Hoarding_disorder). <br />
+It is estimated that around **2% – 6%** of the population 
+suffers from it:
+[iocdf.org/about-hoarding/who-gets-hoarding-disorder](https://hoarding.iocdf.org/about-hoarding/who-gets-hoarding-disorder/) <br />
+If these estimates are correct it's 
+**tens of _millions_ of `people`**. 
+
+If we can build a _simple_ App 
+that can help both the hoarders
+and their 
+[long-suffering family](https://news.ycombinator.com/item?id=37077012),
+we can 
+**_significantly_ improve millions of people's lives**.
+
 
 
 
