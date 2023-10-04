@@ -1,0 +1,32 @@
+<.header>
+  Object <%= @object.id %>
+  <:subtitle>This is a object record from your database.</:subtitle>
+  <:actions>
+    <.link patch={~p"/objects/#{@object}/show/edit"} phx-click={JS.push_focus()}>
+      <.button>Edit object</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.list>
+  <:item title="Name"><%= @object.name %></:item>
+  <:item title="Desc"><%= @object.desc %></:item>
+  <:item title="Color"><%= @object.color %></:item>
+  <:item title="Person"><%= @object.person_id %></:item>
+  <:item title="Owner"><%= @object.owner_id %></:item>
+  <:item title="Location"><%= @object.location %></:item>
+  <:item title="Status"><%= @object.status %></:item>
+</.list>
+
+<.back navigate={~p"/objects"}>Back to objects</.back>
+
+<.modal :if={@live_action == :edit} id="object-modal" show on_cancel={JS.patch(~p"/objects/#{@object}")}>
+  <.live_component
+    module={TidyWeb.ObjectLive.FormComponent}
+    id={@object.id}
+    title={@page_title}
+    action={@live_action}
+    object={@object}
+    patch={~p"/objects/#{@object}"}
+  />
+</.modal>

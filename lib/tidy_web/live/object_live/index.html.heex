@@ -1,0 +1,47 @@
+<.header>
+  Listing Objects
+  <:actions>
+    <.link patch={~p"/objects/new"}>
+      <.button>New Object</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.table
+  id="objects"
+  rows={@streams.objects}
+  row_click={fn {_id, object} -> JS.navigate(~p"/objects/#{object}") end}
+>
+  <:col :let={{_id, object}} label="Name"><%= object.name %></:col>
+  <:col :let={{_id, object}} label="Desc"><%= object.desc %></:col>
+  <:col :let={{_id, object}} label="Color"><%= object.color %></:col>
+  <:col :let={{_id, object}} label="Person"><%= object.person_id %></:col>
+  <:col :let={{_id, object}} label="Owner"><%= object.owner_id %></:col>
+  <:col :let={{_id, object}} label="Location"><%= object.location %></:col>
+  <:col :let={{_id, object}} label="Status"><%= object.status %></:col>
+  <:action :let={{_id, object}}>
+    <div class="sr-only">
+      <.link navigate={~p"/objects/#{object}"}>Show</.link>
+    </div>
+    <.link patch={~p"/objects/#{object}/edit"}>Edit</.link>
+  </:action>
+  <:action :let={{id, object}}>
+    <.link
+      phx-click={JS.push("delete", value: %{id: object.id}) |> hide("##{id}")}
+      data-confirm="Are you sure?"
+    >
+      Delete
+    </.link>
+  </:action>
+</.table>
+
+<.modal :if={@live_action in [:new, :edit]} id="object-modal" show on_cancel={JS.patch(~p"/objects")}>
+  <.live_component
+    module={TidyWeb.ObjectLive.FormComponent}
+    id={@object.id || :new}
+    title={@page_title}
+    action={@live_action}
+    object={@object}
+    patch={~p"/objects"}
+  />
+</.modal>

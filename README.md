@@ -33,6 +33,7 @@
   - [How _Many_ People Are Affected? 💭](#how-many-people-are-affected-)
   - [Is there a "Market" for a `tidy` App?](#is-there-a-market-for-a-tidy-app)
   - [Hoarders? 🙈](#hoarders-)
+  - [Other Use Cases?](#other-use-cases)
 
 
 <hr />
@@ -306,8 +307,14 @@ we can
 **_significantly_ improve millions of people's lives**.
 
 
+## Other Use Cases?
+
+Any `person` that can afford to have someone `else` cleaning their house
+has understood the value of their time. 
+But may be too busy working to keep their house _perfectly_ tidy.
 
 
+<hr />
 
 <sup>1</sup>**`Tidy`** is our
 [**Working title**](https://en.wikipedia.org/wiki/Working_title) 
