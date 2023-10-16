@@ -60,7 +60,7 @@ defmodule Tidy.MixProject do
       {:fields, "~> 2.10.3"},
 
       # Track test coverage: github.com/parroty/excoveralls
-      {:excoveralls, "~> 0.17.1", only: [:test, :dev]}
+      {:excoveralls, "~> 0.18.0", only: [:test, :dev]}
     ]
   end
 
